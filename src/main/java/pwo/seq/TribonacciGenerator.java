@@ -2,8 +2,21 @@ package pwo.seq;
 
 import java.math.BigDecimal;
 
-public class TribonacciGenerator extends FibonacciGenerator {
+/**
+ * Klasa odpowiedzialna za generowanie wyrazów ciągu Tribonacciego
+ *
+ * @author Darya Benedziktovich
+ * @version 1.0.0
+ */
 
+public class TribonacciGenerator extends
+        FibonacciGenerator {
+
+    /**
+     * Konstruktor klasy, który przypisuje zmiennym dla ciągu Tribonacciego
+     * początkowe wartości.
+    */
+    
     public TribonacciGenerator() {
         f_3 = new BigDecimal(0);
     }
